@@ -16,9 +16,6 @@ all:	 script_  clear mvbin
 
 # compile libraries --------------------------------
 
-semantic.o: semantic.cc $(DEPS)
-	$(CC) -c -o $@ $< -fopenmp $(CFLAGS) $(INCLUDES); ar rcs libsemcrct.a semantic.o; rm semantic.o; mv libsemcrct.a ./lib
-
 config.o: config.cc $(DEPS)
 	$(CC) -c -o $@ $< $(CFLAGS); ar rcs libconfigfile.a config.o; rm config.o; mv libconfigfile.a ./lib
 
