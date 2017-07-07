@@ -1,8 +1,9 @@
 # A C++ implementation to find a simple regular expression for an automata using Brzozowski algebraic method.
 
-  make config.o
-  make regx.o
-  make
+
+    make config.o
+    make regx.o
+    make
 
 This makes a static  library `libregx.a` in `\lib`. We also build `libconfig.a` to coveniently read automata specification files.
 Some example files is given in `\test`.
