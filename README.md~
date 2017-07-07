@@ -1,5 +1,0 @@
-# A C++ implementation to find a simple regular expression for an automata using Brzozowski algebraic method.
-
-  make config.o
-  make regex.o
-  make
