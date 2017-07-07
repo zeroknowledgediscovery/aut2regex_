@@ -14,9 +14,9 @@ The binary is placed in `\bin`
 
 ## Format of input
 
-   #CONNX  % this line needs to be here
-   0 1
-   1 0
+   	     `#CONNX`  % this line needs to be here
+   	     0 1
+   	     1 0
 
 This is simply the state connectivity matrix. State numbering begins from zero.
 If state is not connected fully, use -1 (experimental)
