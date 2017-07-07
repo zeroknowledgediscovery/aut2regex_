@@ -14,7 +14,7 @@ The binary is placed in `\bin`
 
 ## Format of input
 
-   	     `#CONNX`  % this line needs to be here
+   	     #CONNX  % this line needs to be here
    	     0 1
    	     1 0
 
